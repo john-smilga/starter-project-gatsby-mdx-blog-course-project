@@ -1,0 +1,45 @@
+---
+title: Reviews
+slug: reviews
+image: ./images/js-2.png
+date: 2020-05-07
+author: john smith
+category: javascript
+readTime: 14
+---
+
+import { Link } from "gatsby"
+
+_I'm baby humblebrag neutra taiyaki af vice bespoke locavore fanny pack_ ramps vexillologist succulents. Normcore etsy pour-over adaptogen skateboard fashion axe, bushwick food truck beard lumbersexual master cleanse actually deep v. **Retro cardigan raw denim franzen kickstarter you probably haven't heard of them literally** aesthetic snackwave four dollar toast. Keffiyeh synth umami, helvetica yr flexitarian jean shorts banh mi cardigan leggings letterpress paleo intelligentsia narwhal.
+
+<blockquote>
+  I'm baby tumblr fanny pack tousled seitan. Man bun shaman yr, bushwick fam
+  hammock williamsburg kombucha keytar VHS. Chambray street art authentic,
+</blockquote>
+
+<blockquote display="info">
+  I'm baby tumblr fanny pack tousled seitan. Man bun shaman yr, bushwick fam
+  hammock williamsburg kombucha keytar VHS. Chambray street art authentic,
+</blockquote>
+
+```jsx
+import React from "react"
+
+const Counter = () => {
+  const [count, setCount] = React.useState(0)
+  return (
+    <section className="counter">
+      <h4>show some love to MDX</h4>
+      <h4>likes {count}</h4>
+      <button className="btn btn-danger" onClick={() => setCount(count + 1)}>
+        i like mdx
+      </button>
+    </section>
+  )
+}
+export default Counter
+```
+
+<Link to="/posts" className="btn center-btn">
+  all posts
+</Link>
