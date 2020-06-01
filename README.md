@@ -147,7 +147,7 @@ npm install --save prism-react-renderer
 
 Favicon
 
-[favicon]: https://favicon.io/
+[favicon] : https://favicon.io/
 
 /static/favicon.ico
 
