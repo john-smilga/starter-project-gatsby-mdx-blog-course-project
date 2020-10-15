@@ -5,7 +5,7 @@ import { graphql } from 'gatsby'
 import Posts from '../components/Posts'
 // ...GatsbyImageSharpFluid
 const PostsPage = ({ data }) => {
-  return <h2>posts page</h2>
+  return <Layout></Layout>
 }
 
 export default PostsPage
